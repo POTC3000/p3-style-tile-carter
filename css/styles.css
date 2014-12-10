@@ -1,12 +1,6 @@
 /*Primary Header*/
-h1 {
-	font-family: 'Fredoka One', cursive;
-	color: #E8BF56;
-}
-p {
-	font-family: 'Lobster Two', cursive;
-	color: #ccc;
-	letter-spacing: 2px;
+body {
+	font-family: "Futura Std", "Futura Std Regular", "Open Sans", sans-serif;
 }
 /* Baseline Links*/
 a:link,
