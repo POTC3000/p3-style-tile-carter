@@ -1,0 +1,53 @@
+/*Primary Header*/
+h1 {
+	font-family: 'Fredoka One', cursive;
+	color: #E8BF56;
+}
+p {
+	font-family: 'Lobster Two', cursive;
+	color: #ccc;
+	letter-spacing: 2px;
+}
+/* Baseline Links*/
+a:link,
+a:visited {
+	border-bottom: dashed orange 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover {
+	background: red;
+}
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+.color-1 {
+	background: #91204D;
+}
+.color-2 {
+	background: #4894B0;
+}
+.pattern-1 {
+	background: url('../img/footer_lodyas.png')
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
