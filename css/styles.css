@@ -1,13 +1,13 @@
 /*Primary Header*/
 body {
-	background: black;
+	background: white;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: white;
+	color: black;
 }
 h1, h2, h3 {
 	font-family: "Futura Std", "Futura Std Regular", "Open Sans", sans-serif;
-	color: white;
+	color: black;
 }
 /* Baseline Links*/
 a {
@@ -24,6 +24,7 @@ h2, h3, p {
 p {
 	font-family: 'Droid Serif', serif;
 	padding-right: 15px;
+	margin-bottom: 15px;
 }
 /* Layout for Style Tile*/
 section {
@@ -34,7 +35,7 @@ section {
 .color-3,
 .color-4,
 .color-5 {
-	border: 1px solid white;
+	border: 1px solid gray;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
