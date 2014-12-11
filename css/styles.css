@@ -1,10 +1,13 @@
 /*Primary Header*/
 body {
+	background: black;
 	padding-left: 15px;
 	padding-right: 15px;
+	color: white;
 }
 h1, h2, h3 {
 	font-family: "Futura Std", "Futura Std Regular", "Open Sans", sans-serif;
+	color: white;
 }
 /* Baseline Links*/
 a {
@@ -29,10 +32,9 @@ section {
 .color-1,
 .color-2,
 .color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
-	border: 1px solid #000;
+.color-4,
+.color-5 {
+	border: 1px solid white;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
@@ -47,8 +49,11 @@ section {
 .color-3 {
 	background: #ffffff;
 }
-.pattern-1 {
-	background: url('../img/footer_lodyas.png')
+.color-4 {
+	background: #cc0000;
+}
+.color-5 {
+	background: #000000;
 }
 /* Show Grid */
 .showgrid {
